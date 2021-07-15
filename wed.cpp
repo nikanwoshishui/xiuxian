@@ -50,7 +50,7 @@ int main()
 				//ev.events = EPOLLIN;
 				//把新的sock添加到数组中
 				//epoll_ctl(fd,EPOLL_CTL_ADD,sockfd,&ev);
-				printf("客户端< %d >以连接\n", sockfd);
+				//printf("客户端< %d >以连接\n", sockfd);
 
 				FILE *fp;	char buf[1024];
 
@@ -59,7 +59,7 @@ int main()
 				strcat(buf,"Connection: close\r\n");
 				strcat(buf,"\r\n");
 
-				if((fp = fopen("wed.txt","r")) == 0)
+				if((fp = fopen("wed2.txt","r")) == 0)
 				{
 					printf("文件打开失败\n");	return -1;
 				}
@@ -78,7 +78,7 @@ int main()
 				close(sockfd);
 
 				//ev.data.fd = epoll_fd[i].data.fd;
-				printf("以关闭连接！\n");
+				//printf("以关闭连接！\n");
 				//发送完毕后删除客户端
 				//epoll_ctl(fd,EPOLL_CTL_DEL,epoll_fd[i].data.fd,&ev);
 			}

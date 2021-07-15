@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>博客中转站</title>
+	</head>
+	<body>
+		<h1>wed服务器</h1>
+		<form method="post" enctype="multipart/form-data">
+		<fieldset>
+		<legend>http://www.baidu.com</legend>
+		<p><a href="http://www.baidu.com" target="_blank">百度一下吧</a></p>
+		<p><a href="http://www.bilibili.com" target="_blank">二次元集结地</a></p>
+		<p><a href="https://blog.csdn.net" target="_blank">博客博客</a></p>
+		<p><a href="http://www.baidu.com" target="_blank">百度一下吧</a></p>
+		<p><a href="http://www.baidu.com" target="_blank">百度一下吧</a></p>
+		<p><a href="http://www.baidu.com" target="_blank">百度一下吧</a></p>
+		</fieldset>
+		<input type="file">
+		</form>
+	</body>
+</html>
