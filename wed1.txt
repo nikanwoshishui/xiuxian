@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">		<!--设置统一字符-->
+	<meta name="viewport" contrnt="width=device-width,inital-scale=1.0">	<!--网页自适应-->
+	<title>钢铁侠</title>
+	<style>
+		body {
+		//	background-image: url("bj1.jpeg")
+		}
+		h1{
+			color: red;
+			text-align: center
+		}
+		h2{color: red}
+		p{color: red}
+		a{
+			background: blue;
+			color:red
+		}
+	</style>
+	<style media="print">
+		h1{
+			color:black
+		}
+		h2{
+			color:black
+		}
+		p{
+			color:black
+		}
+	</style>
+</head>
+
+<body>
+	<h1>羊皮卷之一：今天，我开始新的生活</h1>
+	<h2>风世界</he>
+	<a href="https://blog.csdn.net/" target="_blank">博客</a>
+	<pre>
+　　今天，我开始新的生活。
+　　今天，我爬出满是失败创伤的老茧。
+　　今天，我重新来到这个世上，我出生在葡萄园中，园内的葡萄任人享用。
+</pre>
+	<img alt="lron Man" src="/home/fsj/lron Man.jpeg" width260px height260px>
+</body>
+</html>

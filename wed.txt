@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>第一个程序</title>
+	</head>
+	<body>
+		<h1>wed服务器框架</h1>
+		<label>测试1：<input type="search"></label>
+		<label>测试2：<input type="search"></label>
+		<form method="post" enctype="multipart/form-data">
+		<input type="file">
+		</form>
+		<p><a href="http://www.baidu.com" target="_blank">百度一下吧</a></p>
+	</body>
+</html>
